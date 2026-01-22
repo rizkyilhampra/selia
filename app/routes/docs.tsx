@@ -94,7 +94,7 @@ export default function LayoutDocs({
           </SidebarMenu>
         </SidebarContent>
       </Sidebar>
-      <main className="w-full min-w-0 flex py-6 md:py-10 gap-6 justify-between max-lg:flex-wrap">
+      <main className="w-full min-w-0 flex py-6 md:py-10 gap-6 lg:gap-8 justify-between max-lg:flex-wrap lg:pl-10">
         <div className="w-full min-w-0 xl:w-3xl mx-auto">
           <Outlet />
         </div>
